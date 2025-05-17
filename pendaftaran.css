@@ -1,0 +1,32 @@
+body {
+  background-image: url(image.png);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #ffffffb9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+button{
+  width: 62%;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
