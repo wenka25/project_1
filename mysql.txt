@@ -1,0 +1,13 @@
+CREATE DATABASE db_futsal;
+USE db_futsal;
+
+CREATE TABLE pendaftaran (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nama_lengkap VARCHAR(100),
+  tempat_lahir VARCHAR(100),
+  tanggal_lahir DATE,
+  alamat_lengkap TEXT,
+  no_hp VARCHAR(20),
+  email VARCHAR(100),
+  usia INT
+);
