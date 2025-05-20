@@ -17,45 +17,42 @@
       <h1>Pendaftaran Pemain Futsal</h1>
       <form action="pendaftaran.php" method="POST">
         <div class="mb-3 mt-3">
-          <label for="nama-lengkap">Nama Lengkap:</label>
+          <label>Nama Lengkap:</label>
           <input
             type="text"
             class="form-control"
-            id="nama-lengkap"
             placeholder="Masukkan Nama Lengkap"
             name="nama-lengkap"
             required
           />
         </div>
 
-          <div class="row">
-            <div class="col">
-              <label for="tempat">Tempat Lahir:</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Masukkan Tempat"
-                name="tempat"
-              />
-            </div>
-            
-            <div class="col">
-              <label for="tanggal">Tanggal Lahir:</label>
-              <input
-                type="date"
-                class="form-control"
-                placeholder=" "
-                name="tanggal"
-              />
-            </div>
+        <div class="row">
+          <div class="col">
+            <label>Tempat Lahir:</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Masukkan Tempat"
+              name="tempat"
+            />
           </div>
 
+          <div class="col">
+            <label>Tanggal Lahir:</label>
+            <input
+              type="date"
+              class="form-control"
+              name="tanggal"
+            />
+          </div>
+        </div>
+
         <div class="mb-3 mt-3">
-          <label for="alamat-lengkap">Alamat Lengkap:</label>
+          <label>Alamat Lengkap:</label>
           <input
             type="text"
             class="form-control"
-            id="alamat-lengkap"
             placeholder="Masukkan Alamat Lengkap"
             name="alamat-lengkap"
             required
@@ -63,11 +60,10 @@
         </div>
 
         <div class="mb-3">
-          <label for="no-hp">No Handphone:</label>
+          <label>No Handphone:</label>
           <input
             type="tel"
             class="form-control"
-            id="no-hp"
             placeholder="+62 8123456789"
             name="no-hp"
             required
@@ -75,11 +71,10 @@
         </div>
 
         <div class="mb-3">
-          <label for="email">Email:</label>
+          <label>Email:</label>
           <input
             type="email"
             class="form-control"
-            id="email"
             placeholder="Masukkan Email"
             name="email"
             required
@@ -87,11 +82,10 @@
         </div>
 
         <div class="mb-3">
-          <label for="usia">Usia:</label>
+          <label>Usia:</label>
           <input
             type="number"
             class="form-control"
-            id="usia"
             name="usia"
             min="10"
             max="60"
@@ -100,8 +94,9 @@
           />
         </div>
 
-        <br>
+        <br />
         <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="tampil.php" class="btn btn-success mt-2">Lihat Data Pendaftar</a>
       </form>
     </div>
   </body>
