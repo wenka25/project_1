@@ -50,6 +50,7 @@ $result = mysqli_query($conn, $query);
       ?>
     </tbody>
   </table>
+  <a href="index.html"> <button class="btn btn-success mt-2">Kembali Ke Pendaftaran</button> </a>
 </div>
 </body>
 </html>
