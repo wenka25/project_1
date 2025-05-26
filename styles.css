@@ -1,26 +1,29 @@
-/* styles.css */
+/* File: styles.css - Stylesheet utama untuk halaman web */
 
+/* STYLE UNTUK ELEMEN BODY */
 body {
-  background-image: url(image.png);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  
+  background-image: url(image.png); /* Menetapkan gambar latar belakang */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; /* Font teks utama */
+  margin-top: 20px;    /* Jarak atas dari body */
+  margin-bottom: 20px; /* Jarak bawah dari body */
 }
 
+/* STYLE UNTUK HEADING UTAMA */
 h1 {
-  text-align: center;
-  margin-bottom: 28px;
-  color: #3ee70b;
+  text-align: center;   /* Posisi teks di tengah */
+  color: #3ee70b;      /* Warna hijau neon */
 }
 
+/* STYLE UNTUK CONTAINER UTAMA */
 .container {
-  background-color: #00000094;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 560px;
-  color: rgb(7, 179, 179);
+  background-color: #00000094; /* Hitam transparan */
+  padding: 24px;              /* Ruang dalam container */
+  border-radius: 18px;        /* Sudut melengkung besar */
+  max-width: 560px;           /* Lebar maksimum container */
+  color: rgb(7, 179, 179);    /* Warna teks cyan */
 }
 
+/* STYLE UNTUK TOMBOL DAN LINK */
 button, a {
-  width: 100%;
+  width: 100%; /* Lebar penuh (100% dari parent element) */
 }
