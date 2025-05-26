@@ -1,32 +1,25 @@
+/* STYLE UNTUK ELEMEN BODY */
 body {
-  background-image: url(image.png);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
+  background-image: url(image.png); /* Mengatur gambar background dari file image.png */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Mengatur jenis font yang akan digunakan */
+  display: flex; /* Mengaktifkan flexbox layout */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+  align-items: center; /* Pusatkan konten secara vertikal */
+  min-height: 100vh; /* Set tinggi minimum 100% viewport height */
 }
 
+/* STYLE UNTUK CONTAINER UTAMA */
 .container {
-  background: #ffffffb9;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  text-align: center; /* Pusatkan teks dalam container */
+  background-color: #00000094; /* Warna background hitam dengan opacity 58% (94 dalam hex) */
+  padding: 40px; /* Ruang dalam container 40px */
+  border-radius: 10px; /* Sudut melengkung sebesar 10px */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan dengan offset 0, blur 4px, spread 8px dan warna hitam 10% opacity */
+  max-width: 500px; /* Lebar maksimum container 500px */
+  width: 90%; /* Lebar container 90% dari parent */
 }
 
-button{
-  width: 62%;
+/* STYLE UNTUK HEADING DAN PARAGRAF */
+h2, p {
+  color: white; /* Warna teks putih untuk semua h2 dan p */
 }
-
-h2 {
-  margin-bottom: 15px;
-}
-
-p {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
